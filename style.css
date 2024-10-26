@@ -1,0 +1,33 @@
+.bg-custom {
+  background-color: #627d8e; 
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.subject-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+  .subject-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
